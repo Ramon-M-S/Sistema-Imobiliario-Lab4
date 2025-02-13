@@ -51,5 +51,4 @@ public class PagamentoAluguelService {
 
         return multaCalculada.min(multaMaxima).setScale(2, RoundingMode.HALF_UP); // Arredondar para 2 casas
     }
-
 }
